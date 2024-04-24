@@ -4,7 +4,7 @@ body{
 
 .login_Container{
     padding-bottom: 150px;
-    background: #efefef;
+    background: #f9fbfc;
     overflow: hidden;
     min-height: 800px;
 }
@@ -29,7 +29,7 @@ body{
     margin: 30px auto 50px;
     border-radius: 15px;
     background: rgb(255, 255, 255);
-    box-shadow: var(--defaultBoxShadow);
+    box-shadow: 1px 1px 10px 0 rgb(72 75 108/8%);
 }
 .FormField__InputBox{
     width: 100%;

@@ -7,6 +7,9 @@ from .models import Customer
 def login(request):
     return render(request, 'users/login.html')
 
+def signup(request):
+    return render(request, 'users/signup.html')
+
 def detail(request, customer_id):
     try:
         customer = Customer.objects.get(pk=customer_id)
